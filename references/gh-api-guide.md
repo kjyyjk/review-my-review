@@ -5,7 +5,7 @@
 ```bash
 gh auth status
 ```
-실패 시: `~/.claude/skills/code-review-assistant/references/gh-setup.md`를 안내하고 중단.
+실패 시: `~/.claude/skills/review-my-review/references/gh-setup.md`를 안내하고 중단.
 
 ## 내 GitHub 계정 확인
 

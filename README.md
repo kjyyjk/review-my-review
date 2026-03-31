@@ -20,6 +20,9 @@
 gh auth login
 ```
 
+> `gh`가 설치되어 있지 않거나 인증이 완료되지 않은 경우, 스킬이 실행 시 자동으로 설정 방법을 안내해 드립니다.
+> 참고: [`references/gh-setup.md`](references/gh-setup.md)
+
 ## 설치
 
 ```bash
@@ -76,6 +79,7 @@ review-my-review/
 │   └── evals.json                  # 성능 평가 케이스
 └── references/
     ├── gh-api-guide.md             # GitHub API 수집 가이드
+    ├── gh-setup.md                 # gh CLI 설치 및 인증 가이드
     ├── report-template.md          # 출력 형식 정의
     └── review-quality-rubric.md    # 코드 리뷰 품질 기준
 ```
